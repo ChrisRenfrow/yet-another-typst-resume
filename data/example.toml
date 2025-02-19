@@ -1,0 +1,143 @@
+name = "Jane Example"
+title = "Software Developer"
+
+[contact]
+phone = { display = "+1 (555) 555-5555", link = "tel:+15555555555" }
+email = { display = "fake.person@example.com", link = "mailto:fake.person@example.com" }
+linkedin = { display = "@fakedev", link = "https://linkedin.com/in/fakedev" }
+github = { display = "@fakecoder", link = "https://github.com/fakecoder" }
+website = { display = "fakecoder.dev", link = "https://fakecoder.dev" }
+blog = { display = "fakeblog.dev", link = "https://fakeblog.dev" }
+
+[[experiences]]
+name = "Tech Solutions Inc"
+title = "Website Developer & IT Support"
+description = "Providing web development and IT support services"
+type = "Contract"
+location = "Remote"
+start_date = 2024-06-22
+descriptors = ["""
+Optimized client websites resulting in 40% improvement in load times
+""", """
+Implemented responsive design patterns increasing mobile user engagement by 25%
+"""]
+
+[[experiences.skills_used]]
+name = "WordPress"
+tags = ["framework", "webdev"]
+
+[[experiences.skills_used]]
+name = "IT Support"
+tags = ["it", "customer-service"]
+
+[[experiences]]
+name = "Digital Creations LLC"
+title = "Freelance Web Developer"
+description = "Creating custom web solutions for small businesses"
+type = "Contract"
+location = "Remote"
+start_date = 2023-01-01
+end_date = 2024-01-01
+descriptors = [
+    """
+Designed and developed static websites for multiple clients with focus on performance
+""",
+    """
+Implemented headless CMS solutions enabling client content management
+""",
+    """
+Reduced hosting costs by 100% through strategic infrastructure choices
+""",
+    """
+Maintained 99.9% uptime while supporting extensive client content updates
+""",
+]
+
+[[experiences.skills_used]]
+name = "HTML"
+tags = ["webdev", "language"]
+
+[[experiences]]
+name = "InnovateTech"
+title = "Software Developer"
+description = "Developing SaaS platform features"
+type = "Contract"
+location = "Remote"
+start_date = 2019-07-01
+end_date = 2020-09-01
+descriptors = ["""
+Developed new features using React and Redux improving user engagement by 35%
+""", """
+Participated in product demonstrations leading to successful seed funding round
+"""]
+
+[[experiences.skills_used]]
+name = "React"
+tags = ["webdev", "framework"]
+
+[[experiences]]
+name = "CloudPlatform Solutions"
+title = "Software Developer"
+description = "Building scalable cloud-based applications"
+type = "Contract"
+location = "Remote"
+start_date = 2017-09-01
+end_date = 2020-09-01
+descriptors = [
+    """
+Architected and maintained AI assistant platform supporting 200+ concurrent users
+""",
+    """
+Reduced cloud infrastructure costs by 20% through optimization
+""",
+    """
+Led development team delivering project milestones ahead of schedule
+""",
+]
+
+[[experiences.skills_used]]
+name = "React"
+tags = ["webdev", "framework"]
+
+[[experiences]]
+name = "CodeCraft"
+title = "Contributor"
+description = "Open-source development tools for game creation"
+type = "project"
+start_date = 2024-01-01
+descriptors = ["""
+Improved codebase efficiency reducing complexity by 19%
+""", """
+Developed new features expanding platform capabilities by 5%
+"""]
+
+[[experiences.skills_used]]
+name = "Teamwork"
+tags = ["people"]
+
+[[experiences.skills_used]]
+name = "Rust"
+tags = ["language"]
+
+[[experiences.skills_used]]
+name = "Git"
+tags = ["tools"]
+
+[[education]]
+name = "Bay Area Community College"
+type = "college"
+major = "Computer Science"
+start_date = 2012-01-01
+end_date = 2014-01-01
+
+[[education]]
+name = "Tech Learning Center"
+type = "program"
+start_date = 2022-05-01
+
+[[education]]
+name = "Code Academy"
+type = "program"
+description = "Intensive coding program"
+start_date = 2016-07-01
+end_date = 2018-07-01

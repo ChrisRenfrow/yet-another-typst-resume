@@ -1,0 +1,4 @@
+output
+fonts
+data/*
+!data/example.toml
